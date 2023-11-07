@@ -1,0 +1,93 @@
+*{
+    overflow-x: hidden;
+    color: white;
+}
+
+body{
+    background-color: rgb(0,0,0)!important;
+}
+
+.btn{
+    color: white !important;
+}
+
+/* .btn:hover{
+    box-shadow: 5px 0px 10px rgba(255, 255, 255, 0.315) !important;
+} */
+
+         
+          @media (max-width: 700px) {
+            .mob-tab{
+                display: flex;
+                flex-direction: column;
+            }
+            /* .first-card{ */
+                /* height: 45vh; */
+                /* background-size: cover; 
+                background-size: contain;  */
+            
+            /* } */
+          }
+
+          @media (min-width: 701px) and (max-width: 992px) {
+            .mob-tab{
+                display: flex;
+                flex-direction: column;
+            }
+            .first-card{
+                height: 65vh;
+                /* background-size: cover; 
+                background-size: contain;  */
+            
+            }
+          }
+
+          @media (min-width: 992px) {
+            /* .mob-tab{
+                display: grid;
+                grid-template-columns: auto auto;
+            } */
+          }
+
+          #clockContainer {
+            position: relative;
+            margin: auto;
+            left: -1px;
+            height: 10vw;
+            width: 10vw;
+            background: url(https://cdn-icons-png.flaticon.com/128/8206/8206348.png) no-repeat;
+            background-size: 100%;
+        }
+        
+        #hour,
+        #minute,
+        #second {
+            position: absolute;
+            background: black;
+            border-radius: 10px;
+            transform-origin: bottom;
+        }
+        
+        #hour {
+            width: 1.8%;
+            height: 25%;
+            top: 25%;
+            left: 48.85%;
+            opacity: 0.8;
+        }
+        
+        #minute {
+            width: 1.6%;
+            height: 30%;
+            top: 19%;
+            left: 48.9%;
+            opacity: 0.8;
+        }
+        
+        #second {
+            width: 1%;
+            height: 40%;
+            top: 9%;
+            left: 49.25%;
+            opacity: 0.8;
+        }
